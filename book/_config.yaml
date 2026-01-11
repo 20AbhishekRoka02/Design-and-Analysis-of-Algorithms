@@ -1,0 +1,12 @@
+title: "Foundations of Algorithms"
+author: "Your Name"
+logo: ""
+
+execute:
+  execute_notebooks: auto
+
+latex:
+  latex_engine: pdflatex
+
+html:
+  use_repository_button: true
