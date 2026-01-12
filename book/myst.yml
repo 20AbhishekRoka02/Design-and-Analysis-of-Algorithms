@@ -1,0 +1,34 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 49d1c128-ed41-46b1-a641-78c746c656a8
+  title: Design and Analysis of Algorithms
+  description: A technical book on Designing and analysis of algorithms. The book covers 5 major approaches which are Divide and Conquer Algorithm, Greedy Algorithm, Dynamic Programming, Backtracking and Branch & Bound. It covers NP-Hard and NP-Complete, which are research topics, and includes practical code in C++ of well known problems.
+  keywords: 
+     - algorithm-analysis
+     - divide-and-conquer
+     - greedy-algorithm
+     - dynamic-programming
+     - dp
+     - backtracking
+     - branch-and-bound
+     - np-hard
+     - np-complete
+  authors: 
+    - name: Abhishek Roka
+      affiliations: 
+        id: 24CET0338
+        institution: Management, Engineering and Research Institute (MERI)
+        department: Department of Computer Engineering
+        linkedin: https://www.linkedin.com/in/abhishek-roka-bbb2b3232/
+        yoututbe: https://www.youtube.com/@the-beast-coder
+        x: https://x.com/roka_abhishek
+        # github: https://github.com/20AbhishekRoka02
+
+  github: https://github.com/20AbhishekRoka02/Design-and-Analysis-of-Algorithms
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
