@@ -89,9 +89,13 @@ This is how we write Pseudo Code of a problem!
     2. Now, we want to compare it for all input sizes till infinity $\infty$
     3. We will get a vast table for comaprisons among these values, and we plot a graph.
 
-    ```
+    <!-- ```
     [ Show graphs of A, B, C and D] as n, n^2, n and 2^n with label for time
+    ``` -->
+    ```{figure} ./img/plotabcd.jpg
+    In this figure, $A$ taking linear growth $(n)$, $B$ taking quadratic growth $(n^2)$, $C$ taking contant growth $1$, and $D$ taking logarithmic growth $(\log_{2}{n})$
     ```
+
     4. But, NONE of us wants to REMEMBER THIS!
 3. So, we remember the order of their functions, for example, for the graph like this:
 
@@ -140,13 +144,12 @@ This is how we write Pseudo Code of a problem!
     3. Big Theta $(\Theta)$ notation (Average Case)
 
 #### Big O Notation
-```
-    Big O graph goes here
+```{figure} ./img/bigOgraph.png
+In this figure, 
 
-    with caption below the graph as:
-    Here, n0 -> Threshold size of input (i.e. minimum input size, after which functions (algorithms) show their true behavior)
-    f(n) -> Our function (algorithm) which is under analysis.
-    g(n) -> Another function (algorithm) having higher rate of growth than our function (algorithm)
+$n_{0}$ - Threshold size of input (i.e. minimum input size, after which functions (algorithms) show their true behavior)    
+$f(n)$ - Our function (algorithm) which is under analysis.     
+$cg(n)$ - Another function (algorithm) having higher rate of growth than our function (algorithm)
 ```
 Due to above graph, it is also known as **Upper Bound**.
 ##### Defination
@@ -157,13 +160,14 @@ $$ 0 \leq f(n) \leq c(g(n)); \forall n \geq n_{0}$$
 2. High rate of growth, is a **bad sign**, for an algorithm.
 
 #### Big Omege $(\Omega)$ Notation
-```
-    Big Omega graph goes here
+```{figure} ./img/bigOmegagraph.png
+In this figure, 
 
-    with caption below the graph as:
-    Here, n0 -> Threshold size of input (i.e. minimum input size, after which functions (algorithms) show their true behavior)
-    f(n) -> Our function (algorithm) which is under analysis.
-    g(n) -> Another function (algorithm) having lower rate of growth than our function (algorithm)
+$n0$ - Threshold size of input (i.e. minimum input size, after which functions (algorithms) show their true behavior).
+
+$f(n)$ - Our function (algorithm) which is under analysis.
+
+$cg(n)$ - Another function (algorithm) having lower rate of growth than our function (algorithm)
 ```
 Due to above graph, it is also known as **Lower Bound**.
 ##### Defination
@@ -174,13 +178,14 @@ $$ 0 \leq c(g(n)) \leq f(n); \forall n \geq n_{0}$$
 2. Lower the rate of growth, is **better**.
 
 #### Big Theta $(\Theta)$ Notation
-```
-    Big Theta graph goes here
+```{figure} ./img/bigThetagraph.png
+In this graph,
+    
+$n_{0}$ - Threshold size of input (i.e. minimum input size, after which functions (algorithms) show their true behavior)
 
-    with caption below the graph as:
-    Here, n0 -> Threshold size of input (i.e. minimum input size, after which functions (algorithms) show their true behavior)
-    f(n) -> Our function (algorithm) which is under analysis.
-    g(n) -> Another function (algorithm) having lower rate of growth than our function (algorithm)
+$f(n)$ -> Our function (algorithm) which is under analysis.
+
+$c_{1}g(n)$ and $c_{2}g(n)$  -> Another function (algorithm) having higher and lower rate of growth than our function (algorithm)
 ```
 Due to above graph, it is also known as **Tight Bound**.
 ##### Defination
@@ -192,12 +197,10 @@ $$ 0 \leq c_{1}(g(n)) \leq f(n) \leq c_{2}(g(n)); \forall n \geq n_{0}$$
 
 ### Elementary Data Structures
 #### Stack
-```
-    Stack Diagram goes here
-```
+
 <!-- Add separation -->
-```{figure} ./1.jpg
-This is a caption in **Markdown**
+```{figure} ./img/stack.png
+Stack Data Structure
 ```
 
 
@@ -253,12 +256,8 @@ This is a caption in **Markdown**
         ```
 
 #### Queue
-```
-    Queue Diagram goes here
-```
-<!-- Add separation -->
-```{figure} ./1.jpg
-This is a caption in **Markdown**
+```{figure} ./img/queue.png
+Queue Data Structure
 ```
 
 1. It is a linear data structure, i.e. elements are accessed one after another, like we have place plates one over another in wedding.
@@ -329,13 +328,13 @@ This is a caption in **Markdown**
 #### Tree
 1. It is a non-linear data structure.
 2. It is designed as a parent-child relationship, so it is a **hierarichal** data structure.
-```
-Tree diagram goes here
+```{figure} ./img/tree.png
+Tree Data Structure
 ```
 ##### Terminologies 
 1. **Node** - It is a storage unit in tree, which contains values and pointer to predecessor node & successor nodes.
-    ```
-    Node diagram goes here
+    ```{figure} ./img/node.png
+    Node structure
     ```
 2. **Edge** - It is a link between 2 nodes, as A & B are connected by an edge.
    
@@ -356,7 +355,7 @@ Tree diagram goes here
 2. **Number of Edges**
     * It is the total number of edges in the tree.
     * If number of nodes in a tree are $n$, then
-        $$ number of edges, e = n - 1 $$
+        $$ number\hspace{2px} of\hspace{2px} edges, e = n - 1 $$
     * For example, there are 7 nodes, and 6 edges in the tree above.
 3. **Height of a Tree**
     * It is the longest path in the tree, i.e. number of edges from root node to leaf nodes is the highest.
@@ -366,8 +365,8 @@ Tree diagram goes here
     * For example, Node B has degree of 2, while leaf nodes has degree of 0.
 
 #### Graph
-```
-Graph diagram goes here
+```{figure} ./img/graph.png
+Graph Data Structure
 ```
 1. It is a non-linear data structure.
 2. Unlike other data structures, there is no hard and fast rule about what must be the first node, placement of node and its traversal.
@@ -389,23 +388,23 @@ _A graph, $G$, is represented as_ $ G = (V, E)  $, _where, V is set of vertices 
     1. Direction
         1. Directed Graph
         2. Undirected Graph
-        ``` 
-        Diagram will go here.
+        ```{figure} ./img/directedAndUndirectedgraph.png
+        Left: Directed Graph, and Right: Undirected Graph
         ```
     2. Weight
         1. Weighted Graph
         2. Unweighted Graph
-        ```
-        Diagram will go here.
+        ```{figure} ./img/weightedAndUnweighted.png
+        Left: Weighted Graph, and Right: Unweighted Graph
         ```
 
 ##### Representation
 1. Diagram
-```
-Diagram will go here.
+```{figure} ./img/graphRepresentation.png
+Graph Representation
 ```
 2. Adjancency matrix
-    * Matrix of above diagram
+    <!-- * Matrix of above diagram
     ```{math}
     \begin{equation*}
     A = 
@@ -424,10 +423,10 @@ Diagram will go here.
     \end{bmatrix}
     \end{equation*}
     ```
-    where $a_{ab}$ means weight of edge joining node A with node B
+    where $a_{ab}$ means weight of edge joining node A with node B -->
 
-```
-See This diagram.
+```{figure} ./img/adjacencyMatrix.png
+Adjacency Matrix of Graph above
 ```
 Here, 
 1. Each edge got a weight of 1
