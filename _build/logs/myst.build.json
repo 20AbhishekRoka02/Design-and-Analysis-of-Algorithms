@@ -1,10 +1,8 @@
 {
   "input": {
-    "files": [
-      "book/"
-    ],
+    "files": [],
     "opts": {
-      "execute": false,
+      "execute": true,
       "pdf": false,
       "tex": false,
       "typst": false,
@@ -14,7 +12,7 @@
       "meca": false,
       "cff": false,
       "site": false,
-      "html": false,
+      "html": true,
       "all": false,
       "doiBib": false,
       "watch": false,
@@ -24,7 +22,8 @@
       "ci": false,
       "maxSizeWebp": 1572864,
       "keepHost": false
-    }
+    },
+    "performSiteBuild": true
   },
   "exports": []
 }
