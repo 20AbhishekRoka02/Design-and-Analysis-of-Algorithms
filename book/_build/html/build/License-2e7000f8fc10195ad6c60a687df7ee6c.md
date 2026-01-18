@@ -1,0 +1,45 @@
+# License
+Copyright &copy; 2026 Abhishek Roka. All rights reserved.
+
+This work, including but not limited to all text, explanations, 
+algorithms, code snippets, notebooks, diagrams, figures, and 
+supplementary materials (collectively, “the Work”), is protected 
+by copyright law.
+
+Permission is hereby granted to any individual to view, read, and 
+use the Work strictly for personal, academic, or non-commercial 
+educational purposes.
+
+The following activities are strictly prohibited without prior 
+written permission from the copyright holder:
+
+1. Commercial use of any kind, including but not limited to:
+   - Selling the Work in whole or in part
+   - Including the Work in paid courses, training programs, or workshops
+   - Using the Work in commercial products, services, or platforms
+   - Monetizing the Work through subscriptions, advertisements, or sponsorships
+
+2. Redistribution or republication, including but not limited to:
+   - Reposting the Work on other websites or platforms
+   - Publishing the Work under another name
+   - Printing and distributing copies for sale or profit
+
+3. Creation of derivative works for commercial purposes, including:
+   - Modified versions of the text or code
+   - Translations
+   - Adaptations into videos, slides, or other media intended for commercial use
+
+Non-commercial forks, quotations, or references for academic discussion
+or review are permitted, provided proper attribution is given and no
+monetary benefit is derived.
+
+Any use outside the scope of this license requires explicit prior
+written permission from the copyright holder.
+
+THE WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+For permissions, contact:
+2abhishek00roka2@gmail.com
+
