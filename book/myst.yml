@@ -34,7 +34,8 @@ project:
     - file: Chapter-1-Alogrithm.md
     - file: Chapter-2-Divide_and_Conquer.md
 
-    
+html:
+    baseurl: /
 site:
   template: book-theme
   # options:
