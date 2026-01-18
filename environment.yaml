@@ -1,7 +1,0 @@
-name: algo-book
-channels:
-  - conda-forge
-dependencies:
-  - python=3.11
-  - jupyterlab
-  - jupyter-book
