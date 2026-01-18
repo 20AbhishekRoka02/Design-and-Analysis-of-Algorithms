@@ -1,1 +1,1 @@
-import{a}from"/book/_build/html/build/_shared/chunk-O3H2PZ6F.js";import"/book/_build/html/build/_shared/chunk-CBDDV5MN.js";import"/book/_build/html/build/_shared/chunk-OZE3FFNP.js";export default a();
+import{a}from"/Design-and-Analysis-of-Algorithms//build/_shared/chunk-O3H2PZ6F.js";import"/Design-and-Analysis-of-Algorithms//build/_shared/chunk-CBDDV5MN.js";import"/Design-and-Analysis-of-Algorithms//build/_shared/chunk-OZE3FFNP.js";export default a();
