@@ -220,4 +220,5 @@ test-Jupyter-book/
 book/run.*
 book/typography.txt
 # MyST build outputs
-_build
+_build/temp*
+
