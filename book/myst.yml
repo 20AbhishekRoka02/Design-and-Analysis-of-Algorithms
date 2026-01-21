@@ -33,6 +33,11 @@ project:
     - file: License.md
     - file: Chapter-1-Alogrithm.md
     - file: Chapter-2-Divide_and_Conquer.md
+      children:
+        - file: Chapter-2_1-Binary_Search.md
+        - file: Chapter-2_2-Quick_Sort.md
+        - file: Chapter-2_3-Merge_Sort.md
+        - file: Chapter-2_4-Strassen_Matrix_Multiplication.md
 
 html:
     baseurl: /
